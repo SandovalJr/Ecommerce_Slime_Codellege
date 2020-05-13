@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
-
 #color2 {
   width: 100%;
   height: 100%;
@@ -25,23 +24,31 @@
 
 #color2 > #colorTest > #body > span > #imgbody > img {
   margin-top: 20vh;
-margin-left: 43%;
+  margin-left: 43%;
 }
 
 #color2 > #colorTest > #body > span > #imgbody > #homeday {
-    font-family: "Quicksand", sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 12px;
-
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 12px;
 }
 #color2 > #colorTest > #body > span > #imgbody > #slime {
-    font-family: "Quicksand", sans-serif;
-    color: white;
-    font-size: 80px;
-    margin-top: -19px;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 80px;
+  margin-top: -19px;
+}
 
+#burbujasgrandes {
+  margin-top: -18%;
+  margin-left: -7%;
+}
+
+#imgbottom {
+  margin-left: 68%;
+  margin-top: -22%;
 }
 
 #colorTest {
