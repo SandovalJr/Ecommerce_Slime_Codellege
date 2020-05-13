@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SlimePW"
+    }
+  },
+  "defaultProject": "SlimePW",
+  "cli": {
+    "analytics": false
+  }
 }
