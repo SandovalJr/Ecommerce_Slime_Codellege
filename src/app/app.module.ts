@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/home/shared/navbar/navbar.component';
 import { NotFoundComponent } from './components/home/shared/not-found/not-found.component';
 import { FooterComponent } from './components/home/shared/footer/footer.component';
+import { InicioComponent } from './components/home/inicio/inicio.component';
 
 // rutas
 
@@ -15,7 +16,8 @@ import { FooterComponent } from './components/home/shared/footer/footer.componen
     AppComponent,
     NavbarComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
