@@ -47,7 +47,7 @@
 }
 
 #imgbottom {
-  margin-left: 68%;
+  margin-left: 70%;
   margin-top: -22%;
 }
 
@@ -60,15 +60,20 @@
     background: #ff7bb1;
   }
   25% {
+    opacity: 0.9;
     background: #fc9e92;
   }
   50% {
+    opacity: 0.9;
+
     background: #bf89f4;
   }
   75% {
+    opacity: 0.9;
     background: #f1a7e7;
   }
   100% {
+    opacity: 0.9;
     background: #bd8af4;
   }
 }

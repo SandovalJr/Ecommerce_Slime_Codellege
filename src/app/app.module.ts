@@ -8,8 +8,7 @@ import { FooterComponent } from './components/home/shared/footer/footer.componen
 import { InicioComponent } from './components/home/inicio/inicio.component';
 
 // rutas
-
-
+import { APP_ROUTES } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -17,12 +16,10 @@ import { InicioComponent } from './components/home/inicio/inicio.component';
     NavbarComponent,
     NotFoundComponent,
     FooterComponent,
-    InicioComponent
+    InicioComponent,
   ],
-  imports: [
-    BrowserModule,
-  ],
+  imports: [BrowserModule, APP_ROUTES],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
