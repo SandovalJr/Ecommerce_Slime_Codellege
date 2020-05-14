@@ -16,6 +16,9 @@
   color: white;
 }
 
+#img_titulo{
+  margin-left: 5%;
+}
 #titulo {
   font-size: 30px;
   text-align: center;
