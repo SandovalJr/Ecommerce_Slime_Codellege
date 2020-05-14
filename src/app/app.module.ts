@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/home/shared/navbar/navbar.componen
 import { NotFoundComponent } from './components/home/shared/not-found/not-found.component';
 import { FooterComponent } from './components/home/shared/footer/footer.component';
 import { InicioComponent } from './components/home/inicio/inicio.component';
+import { AboutComponent } from './components/home/about/about.component';
 
 // rutas
 import { APP_ROUTES } from './app.routes';
@@ -17,6 +18,7 @@ import { APP_ROUTES } from './app.routes';
     NotFoundComponent,
     FooterComponent,
     InicioComponent,
+    AboutComponent,
   ],
   imports: [BrowserModule, APP_ROUTES],
   providers: [],
