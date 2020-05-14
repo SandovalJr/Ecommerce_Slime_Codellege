@@ -3,11 +3,7 @@
 #color2 {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
-    to bottom left,
-    rgba(0, 0, 0, 0),
-    rgb(251, 255, 0, 0.288)
-  );
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), #d7c7e3 ,#fe95b2);
 }
 
 #color2 > #colorTest > #body {

@@ -134,12 +134,11 @@
   align-items: center;
 }
 
-#txtCirculo{
+#txtCirculo {
   display: block;
-  margin-left: 15%; 
+  margin-left: 15%;
   margin-top: 1%;
 }
-
 
 #txtCirculo > ul > li {
   list-style: none;

@@ -10,6 +10,7 @@ import { AboutComponent } from './components/home/about/about.component';
 
 // rutas
 import { APP_ROUTES } from './app.routes';
+import { ContactComponent } from './components/home/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { APP_ROUTES } from './app.routes';
     FooterComponent,
     InicioComponent,
     AboutComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, APP_ROUTES],
   providers: [],
