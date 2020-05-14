@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+/* 
+* {
+} */
+.contact {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(to bottom, #fe95b2, #fda9aa, #fcc29f);
+}
+
+#fornulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+
+#titulo {
+  font-size: 30px;
+  text-align: center;
+  margin-left: -48%;
+}
+
+#txtTitulo {
+  margin-top: 0%;
+}
+
+#correos {
+  margin-top: 10%;
+  margin-left: -19%;
+}
+
+.formulario {
+  display: block;
+  margin-top: 1%;
+  margin-left: 30%;
+  overflow-x: hidden;
+}
+
+input {
+  background: transparent;
+  color: white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+input:focus {
+  background: transparent;
+}
+
+input:hover {
+  border-bottom: solid 2px #bd8af4;
+}
+
+textarea {
+  background: transparent;
+  color: white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+textarea:focus {
+  background: transparent;
+}
+
+textarea:hover {
+  border-bottom: solid 2px #bd8af4;
+}
+
+#circulo1 {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: white 1px solid;
+  margin-left: -1%;
+  margin-top: -5%;
+}
+
+#circulo2 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  border: white 1px solid;
+  margin-left: 20%;
+  margin-top: -40%;
+}
+
+#circulo3 {
+  width: 80px;
+  height: 80px;
+  display: block;
+  border-radius: 50%;
+  border: white 1px solid;
+  margin-left: 80%;
+  margin-top: 1%;
+}
+#circulo4 {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50%;
+  border: white 1px solid;
+  margin-left: 90%;
+  margin-top: 1%;
+}

@@ -11,6 +11,9 @@ import { AboutComponent } from './components/home/about/about.component';
 // rutas
 import { APP_ROUTES } from './app.routes';
 import { ContactComponent } from './components/home/contact/contact.component';
+import { CaballeroComponent } from './components/home/products/caballero/caballero.component';
+import { DamaComponent } from './components/home/products/dama/dama.component';
+import { KidsComponent } from './components/home/products/kids/kids.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { ContactComponent } from './components/home/contact/contact.component';
     InicioComponent,
     AboutComponent,
     ContactComponent,
+    CaballeroComponent,
+    DamaComponent,
+    KidsComponent,
   ],
   imports: [BrowserModule, APP_ROUTES],
   providers: [],
