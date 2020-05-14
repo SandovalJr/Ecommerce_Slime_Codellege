@@ -48,6 +48,7 @@ input {
 
 input:focus {
   background: transparent;
+  box-shadow: none;
 }
 
 input:hover {
@@ -62,8 +63,10 @@ textarea {
   border-top: none;
 }
 
+/* focus le das click y el contenido de adentro */
 textarea:focus {
   background: transparent;
+  box-shadow: none;
 }
 
 textarea:hover {
