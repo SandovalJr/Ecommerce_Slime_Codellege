@@ -14,6 +14,7 @@ import { ContactComponent } from './components/home/contact/contact.component';
 import { CaballeroComponent } from './components/home/products/caballero/caballero.component';
 import { DamaComponent } from './components/home/products/dama/dama.component';
 import { KidsComponent } from './components/home/products/kids/kids.component';
+import { BuyProductsComponent } from './components/home/products/buy-products/buy-products.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { KidsComponent } from './components/home/products/kids/kids.component';
     CaballeroComponent,
     DamaComponent,
     KidsComponent,
+    BuyProductsComponent,
   ],
   imports: [BrowserModule, APP_ROUTES],
   providers: [],

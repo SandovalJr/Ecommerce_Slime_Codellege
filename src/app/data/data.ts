@@ -4,7 +4,7 @@ import {
   productsInterface,
 } from '../../app/components/home/interfaces/products.interfaces';
 
-const departments = [
+export const departments: Array<departmentsInterface> = [
   {
     id: 1,
     department: 'Él',
@@ -27,7 +27,7 @@ const departments = [
   },
 ];
 
-const brand = [
+export const brand: Array<brandInterface> = [
   {
     id: 1,
     brand: 'nike',
@@ -55,7 +55,7 @@ const brand = [
   },
 ];
 
-const products = [
+export const products: Array<productsInterface> = [
   {
     id: 1,
     brand: 1,
@@ -63,7 +63,7 @@ const products = [
     product: 'Playera de básquetbol Nike',
     colors: ['#ffffff', '#000000'],
     sizes: ['s', 'm', 'l', 'xl'],
-    img: 'assets/img/id1.jpg',
+    img: 'assets/img/id1.JPG',
     description: [
       'Algodón de primer nivel',
       'El estampado de tinta fotocromática cambia de color cuando se expone a la luz solar.',
@@ -78,7 +78,7 @@ const products = [
     product: 'Playera básica Aeropostale cuello redondo',
     colors: ['#0a1845', '#cfbd00'],
     sizes: ['m', 'l', 'xl'],
-    img: 'assets/img/id2.jpg',
+    img: 'assets/img/id2.JPG',
     description: [
       'estampado en vinil',
       'maga corta',
@@ -95,7 +95,7 @@ const products = [
     product: 'Playera Levi´s edición especial',
     colors: ['#ff0000', '#000000'],
     sizes: ['xs', 's', 'm', 'l', 'xl'],
-    img: 'assets/img/id3.jpg',
+    img: 'assets/img/id3.JPG',
     description: [
       'Colección Super Mario Bros Nintendo',
       'corte regular fit',
@@ -112,7 +112,7 @@ const products = [
     product: 'Playera lisa GAP',
     colors: ['#00123d'],
     sizes: ['s', 'm', 'l'],
-    img: 'assets/img/id4.jpg',
+    img: 'assets/img/id4.JPG',
     description: [
       ,
       'estilo clásico',
@@ -131,7 +131,7 @@ const products = [
     product: 'Playera Polo Ralph Lauren',
     colors: ['#00123d', '#00fff7'],
     sizes: ['s', 'm', 'l', 'xl', 'xxl'],
-    img: 'assets/img/id5.jpg',
+    img: 'assets/img/id5.JPG',
     description: [
       'algodón',
       'corte slim fit',
@@ -149,7 +149,7 @@ const products = [
     product: 'playera fitness Nike',
     colors: ['#ff9999'],
     sizes: ['xs', 's', 'm', 'l'],
-    img: 'assets/img/id6.jpg',
+    img: 'assets/img/id6.JPG',
     description: [
       'algodón',
       'corte regular fit',
@@ -166,7 +166,7 @@ const products = [
     product: 'Playera básica Aeropostale',
     colors: ['#000000', '#cc9200'],
     sizes: ['xs', 's', 'm', 'l'],
-    img: 'assets/img/id7.jpg',
+    img: 'assets/img/id7.JPG',
     description: [
       'algodón y poliester',
       'cuello redondo',
@@ -182,7 +182,7 @@ const products = [
     product: 'Playera Levi´s edición Limitada',
     colors: ['#ffffff'],
     sizes: ['xs', 's', 'm', 'l'],
-    img: 'assets/img/id8.jpg',
+    img: 'assets/img/id8.JPG',
     description: [
       'corte slim fit',
       'playera de algodón',
@@ -200,7 +200,7 @@ const products = [
     product: 'Blusa lisa GAP',
     colors: ['#00123d'],
     sizes: ['xs', 's', 'm'],
-    img: 'assets/img/id9.jpg',
+    img: 'assets/img/id9.JPG',
     description: ['algodón spandexx', 'cueyo V', 'manga corta', 'no estampado'],
     price: 379.3,
     msi: true,
@@ -212,7 +212,7 @@ const products = [
     product: 'Playera polo Ralph Lauren',
     colors: ['#ff008c', '#f2ff00'],
     sizes: ['xs', 's', 'm'],
-    img: 'assets/img/id10.jpg',
+    img: 'assets/img/id10.JPG',
     description: [
       'algodón',
       'con 5 botones',
@@ -230,7 +230,7 @@ const products = [
     product: 'Vestido GAP a cuadros',
     colors: ['#eff757', '#a5ff70', '#fcbebd'],
     sizes: ['1-2M', '6-9M', '9-12M', '12-18M'],
-    img: 'assets/img/id11.jpg',
+    img: 'assets/img/id11.JPG',
     description: ['algodón', 'corte semi-A', 'largo regular'],
     price: 559.3,
     msi: true,
@@ -242,7 +242,7 @@ const products = [
     product: 'Playera GAP bebé',
     colors: ['#00123d', '#ff0000'],
     sizes: ['1-2M', '6-9M', '9-12M', '12-18M'],
-    img: 'assets/img/id12.jpg',
+    img: 'assets/img/id12.JPG',
     description: [
       'corte regular fit',
       'casual',
@@ -259,7 +259,7 @@ const products = [
     product: 'Conjunto sudadera y pantalón',
     colors: ['#fcbebd', '#00123d'],
     sizes: ['1-2M', '6-9M', '9-12M', '12-18M'],
-    img: 'assets/img/id13.jpg',
+    img: 'assets/img/id13.JPG',
     description: [
       'para bebé niña',
       '2 piezas',
@@ -276,7 +276,7 @@ const products = [
     product: 'Conjunto sudadera y pantalón',
     colors: ['#b0b0b0', '#00123d'],
     sizes: ['1-2M', '6-9M', '9-12M', '12-18M'],
-    img: 'assets/img/id14.jpg',
+    img: 'assets/img/id14.JPG',
     description: [
       'conjunto algodón para bebé niño',
       '2 piezas',
@@ -305,7 +305,7 @@ const products = [
       '26.5',
       '27',
     ],
-    img: 'assets/img/id15.jpg',
+    img: 'assets/img/id15.JPG',
     description: [
       'Tenis Nike Air Force 1 07',
       'casual',
@@ -336,7 +336,7 @@ const products = [
       '26.5',
       '27',
     ],
-    img: 'assets/img/id16.jpg',
+    img: 'assets/img/id16.JPG',
     description: [
       'deportivo',
       'Son de alta durabilidad, son muy ligeros',
@@ -366,7 +366,7 @@ const products = [
       '26.5',
       '27',
     ],
-    img: 'assets/img/id17.jpg',
+    img: 'assets/img/id17.JPG',
     description: ['casual', 'suela sintetica', 'dama'],
     price: 659,
     msi: false,
@@ -390,7 +390,7 @@ const products = [
       '26.5',
       '27',
     ],
-    img: 'assets/img/id18.jpg',
+    img: 'assets/img/id18.JPG',
     description: ['Caballero', ' Blancos', 'corte textil'],
     price: 660,
     msi: false,
@@ -414,7 +414,7 @@ const products = [
       '26.5',
       '27',
     ],
-    img: 'assets/img/id19.jpg',
+    img: 'assets/img/id19.JPG',
     description: [
       'Piel color Café',
       'caballero',
@@ -443,7 +443,7 @@ const products = [
       '26.5',
       '27',
     ],
-    img: 'assets/img/id20.jpg',
+    img: 'assets/img/id20.JPG',
     description: ['Dama', 'Mujer', 'textil/lona', 'producto mexicano'],
     price: 549,
     msi: false,
