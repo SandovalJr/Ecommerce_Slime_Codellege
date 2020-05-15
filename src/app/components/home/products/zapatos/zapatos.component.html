@@ -1,0 +1,14 @@
+<div class="row fadeIn mt-4">
+    <div class="col-4 m-auto" *ngFor="let producto of productosZapatosShow">
+      <div class="tarjeta">
+        <div>
+          <img [src]="producto.img" alt="" />
+          <span (click)="GetId(producto.id)">Mostrar Detalles</span>
+        </div>
+        <span class="text-center">{{ producto.product }}</span>
+        <span class="text-center">{{ producto.price }}</span>
+        <span id="addToCar" (click)="GetId(producto.id)">Add to Car</span>
+      </div>
+    </div>
+  </div>
+  

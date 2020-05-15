@@ -15,6 +15,8 @@ import { CaballeroComponent } from './components/home/products/caballero/caballe
 import { DamaComponent } from './components/home/products/dama/dama.component';
 import { KidsComponent } from './components/home/products/kids/kids.component';
 import { BuyProductsComponent } from './components/home/products/buy-products/buy-products.component';
+import { ZapatosComponent } from './components/home/products/zapatos/zapatos.component';
+import { ChatComponent } from './components/home/chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { BuyProductsComponent } from './components/home/products/buy-products/bu
     DamaComponent,
     KidsComponent,
     BuyProductsComponent,
+    ZapatosComponent,
+    ChatComponent,
   ],
   imports: [BrowserModule, APP_ROUTES],
   providers: [],

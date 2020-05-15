@@ -7,22 +7,21 @@ import { from } from 'rxjs';
 import { filter, map, tap } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-kids',
-  templateUrl: './kids.component.html',
-  styleUrls: ['./kids.component.css'],
+  selector: 'app-zapatos',
+  templateUrl: './zapatos.component.html',
+  styleUrls: ['./zapatos.component.css'],
 })
-export class KidsComponent implements OnInit {
-  public productosKidsShow: Array<productsInterface> = [];
+export class ZapatosComponent implements OnInit {
+  public productosZapatosShow: Array<productsInterface> = [];
 
   constructor(private router: Router) {
-    this.GetProduct();
+    this.getProducto();
   }
 
   ngOnInit(): void {}
 
-  public GetProduct() {
-    let departamento = departments.find((v) => v.department == 'Bebé');
-    console.log(departamento);
+  public getProducto() {
+    let departamento = departments.find((v) => v.department == 'Zapatería');
 
     from(products)
       .pipe(
@@ -36,7 +35,7 @@ export class KidsComponent implements OnInit {
             img: imgUrl,
           };
         }),
-        tap((productosFinal) => this.productosKidsShow.push(productosFinal))
+        tap((productoFinal) => this.productosZapatosShow.push(productoFinal))
       )
       .subscribe();
   }
