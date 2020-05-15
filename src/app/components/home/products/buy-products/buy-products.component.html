@@ -1,1 +1,42 @@
-<p>buy-products works!</p>
+<div class="contenedor mt-5">
+  <div class="fila2">
+    <div class="col-6 text-center">
+      <img [src]="producto.img" alt="" />
+    </div>
+
+    <div class="col-6 m-1">
+      <h3>{{ producto.product }}</h3>
+      <p>SKU 00{{ producto.id }}</p>
+      <p>${{ producto.price }}</p>
+      <p>Colores: {{ producto.colors }}</p>
+
+      <label>Cantidad </label>
+      <input type="number" class="inputCantidad mb-3" value="1" />
+
+      <label class="mb-0">Meses sin intereses</label>
+      <select class="mt-2" *ngIf="producto.msi">
+        <option *ngFor="let meses of producto.sizes" [value]="meses">{{
+          meses
+        }}</option>
+      </select>
+
+      <button id="addToCar" type="button" class="btn  mt-4">
+        Add to cart
+      </button>
+
+      <a class="mb-2 mt-4 list-group-item" (click)="ver = !ver"
+        >Informacion del producto
+        <span *ngIf="!ver">+</span>
+        <span *ngIf="ver">-</span>
+      </a>
+      <ul class="list-group fadeIn" *ngIf="ver">
+        <li
+          *ngFor="let feature of producto.description"
+          class="list-group-item"
+        >
+          {{ feature }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

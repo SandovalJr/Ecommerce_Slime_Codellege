@@ -42,6 +42,6 @@ export class KidsComponent implements OnInit {
   }
 
   public GetId(id: number) {
-    this.router.navigate(['buyproducts', id]);
+    this.router.navigate(['buyProducts', id]);
   }
 }
