@@ -1,8 +1,8 @@
 # SlimePW
-![](img_pagina/inicio.PNG.PNG)
+![](img_pagina/inicio.PNG)
 ![](img_pagina/about1.PNG)
 ![](img_pagina/about2.PNG)
-![](img_pagina/contact.PNG.PNG)
+![](img_pagina/contact.PNG)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
